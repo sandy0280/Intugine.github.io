@@ -1,0 +1,167 @@
+/* Reset CSS (DO NOT DELETE) */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header{
+  background-color : whitesmoke;
+  height: 90px;
+  width: 100%;
+}
+.logo{
+  padding: 15px 30px;
+  font-size: 18px;
+  float: left; 
+}
+.logo-name{
+    float: right;
+    padding: 18px 8px;
+}
+
+.menu{
+  float: right;
+  padding-right: 20px;
+  
+}
+.menu li{
+  padding: 33px 10px;
+   color: black;
+   float: left;
+   font-weight: bold;
+}
+.main{
+  height: 90px;
+}
+.avatar {
+    vertical-align: middle;
+    border-radius: 30px;
+    width: 5px;
+    height: 5px;
+    
+  }
+  .user{
+      background-color: rgb(12, 109, 194);
+      height: 100%;
+      border-radius: 10px;
+      width: 100%;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 40px;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #b7bad8;
+    margin: 8px;
+    padding: 35px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
+      margin: 20px 10px;
+      
+  }
+  .container{
+      margin: 5px;
+  }
+  .row div{
+      padding: 5px;
+      
+  }
+
+
+  < ----!---------------------------------------->
+  div.tableContainer {
+	clear: both;
+	border: 1px solid #963;
+	height: 285px;
+	overflow: auto;
+	width: 900px
+}
+
+
+html>body div.tableContainer {
+	overflow: hidden;
+	width: 900px
+}
+
+
+div.tableContainer table {
+	float: left;
+	/* width: 740px */
+}
+
+html>body div.tableContainer table {
+	/* width: 756px */
+}
+
+thead.fixedHeader tr {
+	position: relative;
+}
+
+thead.fixedHeader th {
+	
+	border: 1px solid rgb(20, 18, 15);
+	font-weight: normal;
+	padding: 4px 3px;
+    text-align: left
+    opacity: 0.2;
+}
+
+html>body tbody.scrollContent {
+	display: block;
+	height: 262px;
+	overflow: auto;
+	width: 100%
+}
+
+html>body thead.fixedHeader {
+	display: table;
+	overflow: auto;
+	width: 100%
+}
+
+        
+tbody.scrollContent td, tbody.scrollContent tr.normalRow td {
+	background: #FFF;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #DDD;
+	padding: 2px 3px 3px 4px
+}
+
+
+
+tbody.scrollContent tr.alternateRow td {
+	background: #EEE;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #DDD;
+	padding: 2px 3px 3px 4px
+}
+.box1{
+    border: 1px solid black;
+}
+.table1{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 85%;
+}
+
+  
